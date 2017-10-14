@@ -1,0 +1,31 @@
+{
+    "name": "geidelguerra/laravel-mailerlite",
+    "description": "Laravel 5 wrapper for MailerLite PHP SDK",
+    "keywords": ["laravel", "mailerlite"],
+    "require": {
+        "mailerlite/mailerlite-api-v2-php-sdk": "^0.2.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Geidel Guerra",
+            "email": "geidelguerra@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "GG\\MailerLite\\": "src"
+        }
+    },
+    "extras": {
+        "laravel": {
+            "providers": [
+                "GG\\MailerLite\\ServiceProvider"
+            ],
+            "aliases": {
+                "MailerLite": "GG\\MailerLite\\Facade"
+            }
+        }
+    },
+    "minimum-stability": "dev"
+}
