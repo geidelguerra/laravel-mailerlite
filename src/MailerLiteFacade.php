@@ -2,9 +2,9 @@
 
 namespace GG\MailerLite;
 
-use Illuminate\Support\Facades\Facade as BaseFacade;
+use Illuminate\Support\Facades\Facade;
 
-class Facade extends BaseFacade
+class MailerLiteFacade extends BaseFacade
 {
     protected static function getFacadeAccessor()
     {

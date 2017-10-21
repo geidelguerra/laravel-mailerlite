@@ -20,10 +20,10 @@
     "extras": {
         "laravel": {
             "providers": [
-                "GG\\MailerLite\\ServiceProvider"
+                "GG\\MailerLite\\MailerLiteServiceProvider"
             ],
             "aliases": {
-                "MailerLite": "GG\\MailerLite\\Facade"
+                "MailerLite": "GG\\MailerLite\\MailerLiteFacade"
             }
         }
     },

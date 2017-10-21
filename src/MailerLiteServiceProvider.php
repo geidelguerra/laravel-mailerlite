@@ -2,10 +2,10 @@
 
 namespace GG\MailerLite;
 
-use Illuminate\Support\ServiceProvider as BaseServiceProvider;
+use Illuminate\Support\ServiceProvider;
 use MailerLiteApi\MailerLite;
 
-class ServiceProvider extends BaseServiceProvider
+class MailerLiteServiceProvider extends ServiceProvider
 {
     protected $defer = true;
 
