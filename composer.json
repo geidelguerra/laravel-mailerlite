@@ -17,7 +17,7 @@
             "GG\\MailerLite\\": "src"
         }
     },
-    "extras": {
+    "extra": {
         "laravel": {
             "providers": [
                 "GG\\MailerLite\\MailerLiteServiceProvider"
