@@ -16,7 +16,7 @@ class MailerLiteServiceProvider extends ServiceProvider
 
     public function provides()
     {
-        return 'mailerlite';
+        return ['mailerlite'];
     }
 
     protected function registerMailerLite()
