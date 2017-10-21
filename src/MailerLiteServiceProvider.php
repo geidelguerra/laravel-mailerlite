@@ -14,6 +14,11 @@ class MailerLiteServiceProvider extends ServiceProvider
         $this->registerMailerLiter();
     }
 
+    public function provides()
+    {
+        return 'mailerlite';
+    }
+
     protected function registerMailerLite()
     {
         $this->app->bind('mailerlite', function ($app) {
